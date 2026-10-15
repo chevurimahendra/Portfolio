@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahendra | SAP BODS Developer</title>
+  <meta name="description" content="Mahendra's beginner portfolio showcasing SAP BODS, SQL, ETL learning, and practice projects.">
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #e5e7eb;
+      line-height: 1.7;
+    }
+
+    a { color: #60a5fa; text-decoration: none; }
+
+    nav {
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      border-bottom: 1px solid #263247;
+    }
+
+    nav strong { color: #60a5fa; font-size: 21px; }
+
+    nav a { margin-left: 16px; font-size: 14px; }
+
+    section { padding: 65px 8%; scroll-margin-top: 20px; }
+
+    .hero {
+      min-height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .tag {
+      color: #60a5fa;
+      border: 1px solid #334b70;
+      border-radius: 20px;
+      padding: 5px 13px;
+      font-size: 13px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 64px);
+      line-height: 1.15;
+      margin: 20px 0;
+    }
+
+    h1 span, h2 span { color: #60a5fa; }
+
+    h2 { font-size: 30px; margin-bottom: 22px; }
+
+    .intro { max-width: 680px; color: #b8c3d5; }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      background: #2563eb;
+      color: white;
+      padding: 11px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .muted { color: #aab6c8; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #111c30;
+      border: 1px solid #263750;
+      border-radius: 13px;
+      padding: 23px;
+    }
+
+    .card h3 { margin-bottom: 10px; color: #f1f5f9; }
+
+    .card p { color: #b8c3d5; font-size: 15px; }
+
+    .skill {
+      display: inline-block;
+      background: #172b46;
+      border: 1px solid #304969;
+      color: #bfdbfe;
+      padding: 8px 13px;
+      border-radius: 7px;
+      margin: 5px;
+      font-size: 14px;
+    }
+
+    .status {
+      display: inline-block;
+      color: #93c5fd;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+
+    .alt { background: #0e1728; }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #94a3b8;
+      border-top: 1px solid #263247;
+    }
+
+    @media (max-width: 600px) {
+      nav { padding: 18px 5%; }
+      nav a { margin-left: 0; margin-right: 12px; }
+      section { padding: 48px 5%; }
+      h2 { font-size: 26px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <strong>Mahendra.dev</strong>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <span class="tag">ASPIRING SAP BODS DEVELOPER</span>
+    <h1>Hello, I'm <span>Mahendra.</span></h1>
+    <p class="intro">
+      I am a beginner learning SAP BODS, SQL, ETL development,
+      data integration, and data quality. I enjoy building practice
+      projects and improving my technical skills every day.
+    </p>
+    <a class="btn" href="#projects">Explore My Projects ↓</a>
+  </section>
+
+  <section id="about" class="alt">
+    <h2>About <span>Me</span></h2>
+    <p class="intro">
+      I am an aspiring SAP BODS Developer at the beginning of my
+      professional journey. I am developing my knowledge of data
+      extraction, transformation, loading, SQL queries, data cleansing,
+      and data warehousing. Through hands-on learning projects, I aim
+      to understand business requirements and build reliable data
+      integration workflows. My goal is to grow as a data professional,
+      learn from experienced teams, and contribute to useful data
+      management solutions.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical <span>Skills</span></h2>
+    <p class="muted">My current learning areas</p>
+    <div style="margin-top: 18px;">
+      <span class="skill">SAP BODS</span>
+      <span class="skill">SQL Fundamentals</span>
+      <span class="skill">ETL Concepts</span>
+      <span class="skill">Data Warehousing</span>
+      <span class="skill">Query Transformation</span>
+      <span class="skill">Lookup Transformation</span>
+      <span class="skill">Join Transformation</span>
+      <span class="skill">Data Cleansing</span>
+      <span class="skill">Data Validation</span>
+      <span class="skill">SCD Type 1, 2 and 3</span>
+      <span class="skill">Source-to-Target Mapping</span>
+      <span class="skill">Flat Files</span>
+    </div>
+  </section>
+
+  <section id="projects" class="alt">
+    <h2>Practice <span>Projects</span></h2>
+    <p class="muted">Learning projects to develop practical ETL skills.</p>
+
+    <div class="grid" style="margin-top: 24px;">
+      <article class="card">
+        <span class="status">LEARNING PROJECT</span>
+        <h3>Customer Data Cleansing</h3>
+        <p>
+          Practice cleaning customer records by trimming spaces,
+          standardizing country names, validating customer IDs,
+          and identifying duplicate data.
+        </p>
+        <p style="margin-top: 15px;">
+          <strong>Tools:</strong> SAP BODS, SQL
+        </p>
+      </article>
+
+      <article class="card">
+        <span class="status">LEARNING PROJECT</span>
+        <h3>Employee Historical Tracking</h3>
+        <p>
+          Explore SCD Type 2 and Type 3 to understand how employee
+          salary and location changes can be tracked in target tables.
+        </p>
+        <p style="margin-top: 15px;">
+          <strong>Tools:</strong> SAP BODS, SQL
+        </p>
+      </article>
+
+      <article class="card">
+        <span class="status">LEARNING PROJECT</span>
+        <h3>Customer Credit Limit Tracking</h3>
+        <p>
+          Practice maintaining current and previous customer credit
+          limits to support reporting and risk analysis.
+        </p>
+        <p style="margin-top: 15px;">
+          <strong>Tools:</strong> SAP BODS, SQL
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's <span>Connect</span></h2>
+    <p class="intro">
+      I am interested in learning opportunities and connecting
+      with professionals in data integration and ETL development.
+    </p>
+    <p class="muted" style="margin-top: 15px;">
+      Add your professional email and LinkedIn profile here when ready.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Mahendra | SAP BODS Learning Portfolio</p>
+    <p>Built with HTML and CSS · Hosted with GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
